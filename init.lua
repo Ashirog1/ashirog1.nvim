@@ -1,0 +1,4 @@
+-- Entry point: load core config, then bootstrap lazy.nvim and plugins.
+require("config.options")
+require("config.keymaps")
+require("config.lazy")
