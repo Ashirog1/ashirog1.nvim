@@ -7,7 +7,7 @@ return {
     keys = {
       { "<Tab>", "<cmd>BufferLineCycleNext<CR>", desc = "Next buffer" },
       { "<S-Tab>", "<cmd>BufferLineCyclePrev<CR>", desc = "Previous buffer" },
-      { "<leader>bd", "<cmd>Bufdelete<CR>", desc = "Close buffer" },
+      { "<leader>bd", "<cmd>Bdelete<CR>", desc = "Close buffer" },
       { "<leader>bo", "<cmd>BufferLineCloseOthers<CR>", desc = "Close other buffers" },
       { "<leader>1", "<cmd>BufferLineGoToBuffer 1<CR>", desc = "Buffer 1" },
       { "<leader>2", "<cmd>BufferLineGoToBuffer 2<CR>", desc = "Buffer 2" },
@@ -40,6 +40,6 @@ return {
   {
     "famiu/bufdelete.nvim",
     lazy = true,
-    cmd = { "Bufdelete", "Bwipeout" },
+    cmd = { "Bdelete", "Bwipeout" },
   },
 }

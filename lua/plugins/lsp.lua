@@ -38,8 +38,12 @@ return {
       vim.lsp.config("ocamllsp", {
         capabilities = capabilities,
       })
+      vim.lsp.config("clangd", {
+        capabilities = capabilities,
+      })
 
-      vim.lsp.enable({ "lua_ls", "ocamllsp" })
+      -- clangd comes from Xcode command line tools, not Mason.
+      vim.lsp.enable({ "lua_ls", "ocamllsp", "clangd" })
     end,
   },
 }
