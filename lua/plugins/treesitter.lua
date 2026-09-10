@@ -1,7 +1,7 @@
 local parsers = {
   "lua", "vim", "vimdoc", "bash", "markdown", "markdown_inline",
   "ocaml", "ocaml_interface", "python", "javascript", "typescript",
-  "json", "yaml", "toml",
+  "json", "yaml", "toml", "cpp",
 }
 
 return {
